@@ -6,7 +6,7 @@ import play.mvc.*;
 public class Application extends Controller {
 
     public static void index() {
-        Logger.info("PATH : %s --" ,  Play.applicationPath.getAbsolutePath());
+        Logger.info("PATH : %ssss --" ,  Play.applicationPath.getAbsolutePath());
         render();
     }
 
